@@ -5,7 +5,10 @@ namespace iMSAPI
 {
     public class AesKeyUpdateRequest
     {
-        [SwaggerSchema("New AES Key")]
+        /// <summary>
+        /// Temperature in celcius
+        /// </summary>
+        /// <example>25</example>
         public string Key { get; set; }
     }
 }
